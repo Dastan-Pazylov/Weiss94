@@ -1,0 +1,398 @@
+@import "reset";
+@import "variables";
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+#header {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+
+
+
+    &__menu {
+      display: flex;
+
+      &__item {
+        margin: 0 20px;
+
+        .link {
+          display: inline-block;
+          font-family: DINPro, sans-serif;
+          font-size: 16px;
+          line-height: 40px;
+          color: #263640;
+
+          &:hover {
+            color: #FF9900;
+            border-bottom: 2px solid #FF9900;
+
+
+            &__btn {
+              width: 146px;
+              height: 40px;
+              background: #FF9900;
+              font-family: DINPro, sans-serif;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 16px;
+              line-height: 40px;
+              color: #FFFFFF;
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+
+  //**DIETER**//
+#dieter {
+  .dieter {
+    display: flex;
+    justify-content: space-between;
+
+    &__biter {
+      margin: 100px;
+
+      .dieter__top {
+        margin: 30px;
+      }
+    }
+
+
+    &__top {
+      font-family: DINPro, sans-serif;
+      font-size: 14px;
+      line-height: 20px;
+      color: #929A9F;
+
+      .dieter__pot {
+        font-family: DINPro, sans-serif;
+        font-size: 32px;
+        line-height: 45px;
+        color: #263640;
+        height: 300px;
+
+      }
+
+    }
+
+    &__btn__2 {
+      padding: 3% 5%;
+      border-radius: 2px;
+      background: #FF9900;
+      font-family: DINPro, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 40px;
+      color: #FFFFFF;
+
+
+    }
+  }
+}
+
+//**DIETER**//
+
+#unsere {
+  background: #F5F8FA;
+
+  .unsere {
+    padding: 10% 2%;
+
+    &__unsere {
+      margin: 10px 3%;
+
+      font-size: 24px;
+      line-height: 44px;
+      display: flex;
+      align-items: center;
+      color: #263640;
+
+      &__ist {
+        margin: 10px 3%;
+        width: 480px;
+        font-size: 16px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #929A9F;
+      }
+    }
+
+    .language {
+      display: flex;
+      justify-content: space-around;
+    }
+
+
+    .theme {
+      display: flex;
+
+      &__img {
+        width: 312px;
+        height: 333px;
+
+        &__div {
+          margin-left: 25px;
+
+          &__title {
+            width: 311px;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            color: #263640;
+
+            &__item {
+              width: 312px;
+              font-size: 16px;
+              line-height: 28px;
+              color: #929A9F;
+
+              &__alt {
+                color: #FF9900;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .bg {
+      position: relative;
+      display: flex;
+      padding-top: 5%;
+      padding-left: 10%;
+      margin-top: 10%;
+      margin-left: 2%;
+      width: 950px;
+      height: 500px;
+      background: #263640;
+
+      &__firm {
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #929A9F;
+      }
+
+      &__weiss {
+        width: 494px;
+        font-size: 32px;
+        line-height: 44px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+      }
+
+      &__fast {
+        width: 422px;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+
+        display: flex;
+        align-items: center;
+
+        /* Weiß */
+
+        color: #FFFFFF;
+      }
+
+      &__lesen {
+        color: white;
+      }
+
+    }
+
+    .img {
+      margin-left: 40%;
+      position: absolute;
+      width: 588px;
+      height: 600px;
+      padding-left: 10%;
+
+    }
+  }
+}
+//**UNSERE**//
+
+#desk {
+  .letz {
+    margin-left: 6%;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #929A9F;
+  }
+
+  .desks {
+    margin-left: 6%;
+    display: flex;
+
+    .desk {
+      width: 361px;
+      height: 212px;
+
+      &__sed {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #263640;
+
+        &__amet {
+          width: 361px;
+          font-size: 16px;
+          line-height: 28px;
+          color: #929A9F;
+        }
+
+
+      }
+    }
+
+    .lesen {
+      color: #FF9900;
+    }
+  }
+}
+
+
+
+
+
+#mach {
+  margin-top: 20%;
+  min-height: 100vh;
+  background: #F5F8FA;
+
+  .mach {
+    display: flex;
+
+    .vid {
+      margin-left: 5%;
+    }
+
+    .bei {
+      margin-top: 22%;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+
+      /* Light Blue */
+
+      color: #929A9F;
+    }
+
+    &__dich {
+      font-size: 32px;
+      line-height: 44px;
+      color: #263640;
+
+      &__sit {
+        width: 327px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #929A9F;
+
+
+      }
+    }
+
+    .img6 {
+      width: 728px;
+      height: 484px;
+      margin: -20% 5%;
+    }
+    .mach__sit__btn {}
+    width: 135px;
+    height: 40px;
+    background: #FF9900;
+  }
+}
+
+#footer {
+
+  margin-top: 20px;
+  padding: 5%;
+  background: #263640;
+
+  .footers {
+    display: flex;
+
+    .footer {
+      &__sed {
+        margin-left: 290px;
+        width: 156px;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        &__amet {
+          margin-left: 290px;
+          width: 160px;
+          font-size: 16px;
+          line-height: 26px;
+          color: #FFFFFF;
+        }
+      }
+    }
+
+    .sed {
+      margin-left: 290px;
+      width: 156px;
+      font-size: 14px;
+      line-height: 18px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+
+    .amet {
+      margin-left: 290px;
+      width: 160px;
+      font-size: 16px;
+      line-height: 26px;
+      color: #FFFFFF;
+    }
+  }
+
+  .div {
+    width: 900px;
+    border: 1px solid #FFFFFF;
+  }
+
+  .pressum {
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
